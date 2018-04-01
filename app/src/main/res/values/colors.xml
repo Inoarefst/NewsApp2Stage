@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDark">#795548</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--color for the background of the layout.-->
+    <color name="colorBackground">#EFEBE9</color>
+
+    <!--color for the text views.-->
+    <color name="colorText">#000000</color>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_topic_default"
+        android:inputType="text"
+        android:key="@string/settings_topic_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_topic_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_month_default"
+        android:entries="@array/settings_month_labels"
+        android:entryValues="@array/settings_month_values"
+        android:key="@string/settings_month_key"
+        android:title="@string/settings_month_label" />
+</PreferenceScreen>

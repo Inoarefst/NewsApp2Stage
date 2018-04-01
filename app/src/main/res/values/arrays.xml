@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_month_labels">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+    </string-array>
+
+    <string-array name="settings_month_values">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+    </string-array>
+</resources>

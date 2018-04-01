@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context="com.example.android.newsapp2stage.StoryActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_margin"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_section_name"
+            style="@style/TextView"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            tools:text="Section Name" />
+
+        <TextView
+            android:id="@+id/tv_story_date"
+            style="@style/TextView"
+            tools:text="Nov 23, 1978" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/item_margin"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_author_name"
+            style="@style/TextView"
+            tools:text="Taylor Hatmaker" />
+
+        <TextView
+            android:id="@+id/tv_story_title"
+            style="@style/TextView1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="Title of the story" />
+    </LinearLayout>
+</LinearLayout>
